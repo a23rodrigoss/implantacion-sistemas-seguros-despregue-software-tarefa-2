@@ -10,6 +10,8 @@ import { UserContextProvider } from "./auth/UserContextProvider";
 import { MockOctocats } from "./api/types/MockOctocats";
 import { QueryClient, QueryClientProvider } from "react-query";
 
+// Example comment
+
 const MODE = import.meta.env.MODE;
 const API_URL = import.meta.env.API_URL ?? "https://octocatapi.com";
 
