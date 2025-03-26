@@ -1,7 +1,7 @@
 name: Hello World Training Workflow
 on: [push]
 jobs:
-  saudo:
+  greet:
     runs-on: ubuntu-latest
     steps:
       - name: Greet the User
