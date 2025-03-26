@@ -1,5 +1,6 @@
 name: Hello World Training Workflow
-on: [push]
+on:
+  push:
 jobs:
   greet:
     runs-on: ubuntu-latest
